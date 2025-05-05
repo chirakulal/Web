@@ -1,0 +1,148 @@
+header {
+    padding: 10px 20px;
+}
+
+.navClass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navClass ul li {
+    list-style: none;
+}
+
+.navSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.searchBar {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    width: 550px;
+}
+
+.searchBar input {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+
+.videoSection {
+    display: flex;
+    margin: 10px;
+}
+
+.leftVideoSection {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.leftVideoSection img {
+    border-radius: 100%;
+    display: flex;
+}
+
+.belowVideo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.belowVideo button {
+    border: 1px solid black;
+    background: black;
+    border-radius: 20px;
+    color: white;
+    margin: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.right {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.iconText {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 10px;
+    background: lightgrey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.iconText i {
+    margin: 0;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 10px; 
+}
+
+.filterButton {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filterButton:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.filterButton:focus {
+    outline: none;
+}
+
+.filterButton:active {
+    background-color: #555;
+}
+
+.rightVideoSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rightVideoText {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+iframe {
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.fa-microphone{
+    position: absolute;
+    right:530px
+    
+}
