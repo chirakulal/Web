@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Wishlist - WatchStore</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0f172a;
+      font-family: 'Segoe UI', sans-serif;
+      color: #f1f5f9;
+    }
+    h2 {
+      font-weight: 600;
+      margin-bottom: 30px;
+      color: #facc15;
+    }
+    .wishlist-item {
+      background-color: #1e293b;
+      border-radius: 10px;
+      padding: 15px 20px;
+      box-shadow: 0 4px 15px rgba(250, 204, 21, 0.15);
+      margin-bottom: 15px;
+      color: #f1f5f9;
+    }
+    .btn-outline-danger {
+      border-radius: 20px;
+      padding: 4px 14px;
+      color: #f87171;
+      border-color: #f87171;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .btn-outline-danger:hover {
+      background-color: #f87171;
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <h2 class="text-center"> My Wishlist</h2>
+    
+    <div class="wishlist-item d-flex justify-content-between align-items-center">
+      <span>Omega Seamaster</span>
+      <button class="btn btn-sm btn-outline-danger">Remove</button>
+    </div>
+
+    <div class="wishlist-item d-flex justify-content-between align-items-center">
+      <span>Titan Raga Viva</span>
+      <button class="btn btn-sm btn-outline-danger">Remove</button>
+    </div>
+
+    <div class="wishlist-item d-flex justify-content-between align-items-center">
+      <span>Fossil Gen 5 Smartwatch</span>
+      <button class="btn btn-sm btn-outline-danger">Remove</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
